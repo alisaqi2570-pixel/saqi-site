@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ساقی؛ معرفی محصولات و خدمات کسب‌وکار شما">
+<meta name="theme-color" content="#082b52">
+<title>ساقی | Saqi</title>
+<style>
+:root{--navy:#082b52;--blue:#1266d5;--green:#08b85a;--ink:#162238;--muted:#64748b;--bg:#f4f8fd;--line:#e1e9f3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+header{background:var(--navy);color:white;position:sticky;top:0;z-index:5;box-shadow:0 5px 18px #00172e22}
+.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-size:1.55rem;font-weight:900;letter-spacing:.3px}.brand span{color:#72b7ff}
+nav{display:flex;gap:22px;align-items:center;font-size:.95rem}nav a:hover{color:#9bd2ff}.menu{display:none;background:transparent;border:0;color:white;font-size:1.5rem}
+.hero{background:linear-gradient(110deg,#06274ceF,#0c4788b8),url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;padding:76px 0 68px}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:30px}.eyebrow{display:inline-block;background:#ffffff1c;border:1px solid #ffffff55;border-radius:99px;padding:5px 14px;font-size:.85rem}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.25;margin:16px 0}.hero p{max-width:620px;color:#e6f1ff;font-size:1.08rem}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 20px;border-radius:12px;font-weight:700;border:0;cursor:pointer}.btn-green{background:var(--green);color:white}.btn-light{background:white;color:var(--navy)}.hero-card{background:#ffffff16;border:1px solid #ffffff48;padding:22px;border-radius:22px;backdrop-filter:blur(8px)}.hero-card strong{font-size:1.1rem}.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.hero-stats div{background:#ffffff15;padding:12px 8px;border-radius:12px;text-align:center}.hero-stats b{display:block;font-size:1.2rem}
+section{padding:58px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:24px}.section-head h2{margin:0;color:var(--navy);font-size:clamp(1.5rem,3vw,2rem)}.section-head p{margin:4px 0 0;color:var(--muted)}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.category{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;text-align:center;box-shadow:0 6px 20px #173c6610}.category .emoji{font-size:2rem}.category h3{margin:8px 0 0;font-size:1rem}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:0 8px 24px #173c660c}.product img{display:block;width:100%;height:185px;object-fit:cover;background:#e8eff8}.product-body{padding:14px}.product h3{margin:0 0 5px;font-size:1rem}.product p{margin:0;color:var(--muted);font-size:.9rem}.product-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:13px}.price{font-weight:800;color:var(--blue)}.small-btn{background:var(--blue);color:#fff;padding:8px 11px;border-radius:9px;font-size:.82rem;font-weight:700}
+.banner{background:linear-gradient(110deg,#0a3c77,#1476d8);color:#fff;border-radius:22px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px}.banner h2{margin:0 0 6px}.banner p{margin:0;color:#dcecff}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.gallery img{width:100%;height:210px;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:#e8eff8}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}.about-box{background:#fff;border:1px solid var(--line);padding:25px;border-radius:18px}.about-box h2{margin-top:0;color:var(--navy)}.check{padding:0;list-style:none}.check li{margin:8px 0}.check li:before{content:"✓";color:var(--green);font-weight:bold;margin-left:9px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-card{background:white;border:1px solid var(--line);padding:24px;border-radius:18px}.contact-card h3{margin-top:0;color:var(--navy)}.contact-line{display:flex;gap:12px;align-items:center;margin:13px 0}.contact-line span:first-child{font-size:1.3rem}.form{display:grid;gap:12px}.form input,.form textarea{width:100%;padding:12px;border:1px solid #cbd7e5;border-radius:10px;font:inherit;background:#fbfdff}.form textarea{min-height:100px;resize:vertical}.form-note{font-size:.82rem;color:var(--muted)}
+footer{background:#061f3d;color:#dbe8f8;padding:28px 0;margin-top:20px}.footer-row{display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap}.footer-row p{margin:0;color:#b8cbe2;font-size:.9rem}
+.float-wa{position:fixed;left:18px;bottom:18px;background:var(--green);color:white;padding:13px 17px;border-radius:99px;font-weight:800;box-shadow:0 8px 24px #00391e45;z-index:6}
+@media(max-width:850px){.hero-grid,.about-grid,.contact{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,1fr)}.categories{grid-template-columns:repeat(2,1fr)}nav{gap:12px}.hero{padding:52px 0}.hero-card{max-width:520px}}
+@media(max-width:560px){.nav{min-height:60px}.menu{display:block}nav{display:none;position:absolute;top:60px;right:0;left:0;background:var(--navy);padding:15px 5%;flex-direction:column;align-items:stretch}nav.open{display:flex}nav a{padding:7px 0}.hero-grid{gap:20px}.hero-card{padding:16px}.hero-stats{gap:6px}.hero-stats div{font-size:.78rem}.products{gap:10px}.product img{height:145px}.product-body{padding:10px}.product-bottom{align-items:stretch;flex-direction:column}.small-btn{text-align:center}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:145px}.banner{align-items:flex-start;flex-direction:column;padding:22px}.section-head{align-items:flex-start;flex-direction:column}section{padding:42px 0}.float-wa{left:12px;bottom:12px;padding:10px 13px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header>
+ <div class="container nav">
+  <a class="brand" href="#home">🛒 Saqi <span>ساقی</span></a>
+  <button class="menu" aria-label="باز کردن منو" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+   <a href="#home">خانه</a><a href="#categories">دسته‌بندی</a><a href="#products">محصولات</a><a href="#gallery">گالری</a><a href="#about">درباره ما</a><a href="#contact">تماس</a>
+  </nav>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="container hero-grid">
+  <div>
+   <span class="eyebrow">بازار آنلاین محصولات و خدمات</span>
+   <h1>به دنیای <span style="color:#9bd2ff">ساقی</span> خوش آمدید</h1>
+   <p>محصولات و خدمات خود را به آسانی معرفی کنید، عکس‌ها و ویدیوها را نمایش دهید و مشتریان را مستقیم از طریق واتساپ با خود در ارتباط بسازید.</p>
+   <div class="actions"><a class="btn btn-green wa-link" href="#" target="_blank" rel="noopener">☏ تماس با واتساپ</a><a class="btn btn-light" href="#products">دیدن محصولات ←</a></div>
+  </div>
+  <div class="hero-card"><strong>هر آنچه کسب‌وکار شما نیاز دارد</strong><p>یک صفحه زیبا و مناسب موبایل برای معرفی محصولات، خدمات، عکس‌ها و راه‌های تماس.</p>
+   <div class="hero-stats"><div><b>📱</b>مناسب موبایل</div><div><b>🖼️</b>عکس و ویدیو</div><div><b>💬</b>واتساپ</div></div>
+  </div>
+ </div>
+</section>
+<section id="categories"><div class="container">
+ <div class="section-head"><div><h2>دسته‌بندی‌ها</h2><p>برای شروع، دسته‌های نمونه را با کسب‌وکار خود تغییر دهید.</p></div></div>
+ <div class="categories">
+  <div class="category"><div class="emoji">💻</div><h3>کمپیوتر و موبایل</h3></div>
+  <div class="category"><div class="emoji">👕</div><h3>لباس و پوشاک</h3></div>
+  <div class="category"><div class="emoji">🏠</div><h3>لوازم خانه</h3></div>
+  <div class="category"><div class="emoji">🧰</div><h3>خدمات و سایر</h3></div>
+ </div>
+</div></section>
+<section id="products" style="background:#edf4fc"><div class="container">
+ <div class="section-head"><div><h2>محصولات پیشنهادی</h2><p>قیمت‌ها و مشخصات زیر نمونه‌اند؛ پیش از انتشار آن‌ها را ویرایش کنید.</p></div></div>
+ <div class="products">
+  <article class="product"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80" alt="لپ‌تاپ"><div class="product-body"><h3>لپ‌تاپ و کمپیوتر</h3><p>مشخصات و توضیحات محصول را اینجا بنویسید.</p><div class="product-bottom"><span class="price">قیمت: تماس بگیرید</span><a class="small-btn wa-link" href="#">سفارش در واتساپ</a></div></div></article>
+  <article class="product"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80" alt="موبایل"><div class="product-body"><h3>موبایل و لوازم جانبی</h3><p>مشخصات و توضیحات محصول را اینجا بنویسید.</p><div class="product-bottom"><span class="price">قیمت: تماس بگیرید</span><a class="small-btn wa-link" href="#">سفارش در واتساپ</a></div></div></article>
+  <article class="product"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="لباس"><div class="product-body"><h3>لباس و پوشاک</h3><p>مشخصات و توضیحات محصول را اینجا بنویسید.</p><div class="product-bottom"><span class="price">قیمت: تماس بگیرید</span><a class="small-btn wa-link" href="#">سفارش در واتساپ</a></div></div></article>
+  <article class="product"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80" alt="لوازم خانه"><div class="product-body"><h3>لوازم خانه</h3><p>مشخصات و توضیحات محصول را اینجا بنویسید.</p><div class="product-bottom"><span class="price">قیمت: تماس بگیرید</span><a class="small-btn wa-link" href="#">سفارش در واتساپ</a></div></div></article>
+ </div>
+</div></section>
+<section><div class="container"><div class="banner"><div><h2>محصول خود را معرفی کنید!</h2><p>برای افزودن محصول، عکس، قیمت و توضیحات، فایل index.html را ویرایش کنید.</p></div><a class="btn btn-light" href="#contact">با ما تماس بگیرید</a></div></div></section>
+<section id="gallery"><div class="container">
+ <div class="section-head"><div><h2>گالری عکس و ویدیو</h2><p>نمونه‌هایی از عکس‌ها. می‌توانید عکس‌های واقعی کسب‌وکار خود را جایگزین کنید.</p></div></div>
+ <div class="gallery">
+  <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80" alt="فروشگاه">
+  <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="کار با لپ‌تاپ">
+  <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80" alt="محصول">
+  <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80" alt="کفش">
+  <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80" alt="دکور">
+  <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="افزودن ویدیو"><img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=700&q=80" alt="نمونه ویدیو؛ برای دیدن ویدیو کلیک کنید"></a>
+ </div>
+</div></section>
+<section id="about" style="background:#edf4fc"><div class="container about-grid">
+ <div><h2 style="color:var(--navy)">درباره ساقی</h2><p>ساقی یک صفحه آنلاین برای معرفی کسب‌وکار، محصولات و خدمات است. این متن را با داستان، تجربه و معلومات واقعی کسب‌وکار خود جایگزین کنید.</p><ul class="check"><li>نمایش محصولات و خدمات</li><li>گالری عکس و ویدیو</li><li>ارتباط مستقیم از طریق واتساپ</li><li>طراحی واکنش‌گرا برای موبایل و کمپیوتر</li></ul></div>
+ <div class="about-box"><h2>چرا از ساقی استفاده کنید؟</h2><p>مشتریان می‌توانند محصولات را ببینند و برای قیمت، موجودی یا سفارش مستقیماً پیام بفرستند. این نسخه فروش آنلاین و پرداخت خودکار ندارد؛ سفارش‌ها از طریق واتساپ هماهنگ می‌شوند.</p><a class="btn btn-green wa-link" href="#">همین حالا پیام بدهید</a></div>
+</div></section>
+<section id="contact"><div class="container">
+ <div class="section-head"><div><h2>تماس با ما</h2><p>برای سفارش یا دریافت معلومات با ما در ارتباط شوید.</p></div></div>
+ <div class="contact">
+  <div class="contact-card"><h3>راه‌های ارتباطی</h3><div class="contact-line"><span>💬</span><div><b>واتساپ</b><br><span id="phone-display">شماره خود را در فایل سایت وارد کنید</span></div></div><div class="contact-line"><span>📍</span><div><b>آدرس</b><br><span>آدرس کسب‌وکار خود را وارد کنید</span></div></div><div class="contact-line"><span>🕒</span><div><b>ساعات کاری</b><br><span>همه‌روزه، ساعات کاری خود را وارد کنید</span></div></div><a class="btn btn-green wa-link" href="#">☏ پیام در واتساپ</a></div>
+  <div class="contact-card"><h3>ارسال پیام از واتساپ</h3><form class="form" id="order-form"><input id="customer-name" required placeholder="نام شما"><input id="customer-product" required placeholder="نام محصول یا خدمت"><textarea id="customer-message" placeholder="پیام یا جزئیات سفارش"></textarea><button class="btn btn-green" type="submit">فرستادن به واتساپ</button><div class="form-note">با زدن دکمه، واتساپ باز می‌شود و پیام برایتان آماده خواهد شد.</div></form></div>
+ </div>
+</div></section>
+</main>
+<footer><div class="container footer-row"><a class="brand" href="#home">🛒 Saqi <span>ساقی</span></a><p>© <span id="year"></span> ساقی — تمام حقوق محفوظ است.</p><p>فروش، اعتماد، رضایت</p></div></footer>
+<a class="float-wa wa-link" href="#" aria-label="تماس در واتساپ">◉ واتساپ</a>
+<script>
+/* تنظیمات مهم: شماره واتساپ را با کد کشور و فقط ارقام وارد کنید؛ علامت + یا فاصله نگذارید.
+   نمونه افغانستان: 93701234567 */
+const WHATSAPP_NUMBER = "93700000000";
+const DEFAULT_MESSAGE = "سلام، درباره محصولات و خدمات ساقی معلومات می‌خواهم.";
+function waUrl(message){return "https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(message||DEFAULT_MESSAGE)}
+document.querySelectorAll(".wa-link").forEach(a=>{a.href=waUrl(DEFAULT_MESSAGE);a.target="_blank";a.rel="noopener"});
+document.getElementById("order-form").addEventListener("submit",function(e){
+ e.preventDefault();
+ const name=document.getElementById("customer-name").value.trim();
+ const product=document.getElementById("customer-product").value.trim();
+ const message=document.getElementById("customer-message").value.trim();
+ const text="سلام، من "+name+" هستم. درباره این محصول/خدمت معلومات می‌خواهم: "+product+(message?"\nجزئیات: "+message:"");
+ window.open(waUrl(text),"_blank","noopener");
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
